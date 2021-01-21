@@ -1,7 +1,7 @@
 # Using a compact OS
 FROM daocloud.io/nginx:1.12
 
-ADD k8s.html /usr/share/nginx/html 
+ADD . /usr/share/nginx/html 
 
 EXPOSE 80
 
